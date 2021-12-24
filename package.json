@@ -1,0 +1,14 @@
+{
+  "name": "aboutme-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": "https://github.com/NeonGamerBot-QK/aboutme-template",
+  "author": "NeonGamerBotQK <<>>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

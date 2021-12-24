@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+  <!-- META TAGS -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="<%=INFO.url%>">
+<meta property="og:title" content="<%=INFO.title%>">
+<meta property="og:description" content="<%=INFO.description%>">
+<meta property="og:site_name" content="<%=INFO.realname%>" />
+<meta property="og:image" content="<%=INFO.avatar%>" />
+<meta property="og:color" content="#075FFF" />
+<meta name="description" content="<%=INFO.description%>">
+<meta name="theme-color" content="#075FFF">
+<meta property="og:image:url" content="<%=data.avatar%>" />
+<meta name="twitter:image" content="<%=INFO.avatar%>" />
+<meta name="twitter:url" content="<%=INFO.url%>" />
+<!-- SCRIPTS - NOT OURS -->
+  <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://kit.fontawesome.com/a6e95e39af.js" crossorigin="anonymous"></script>
+<!-- STYLESHEET - OURS -->
+<link rel="stylesheet" href="./style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+<!-- NAVBAR PARTIALS -->
+<%- renderEjs('partials/head.ejs', { INFO }) -%>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
